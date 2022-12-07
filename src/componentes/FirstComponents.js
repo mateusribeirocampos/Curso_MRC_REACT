@@ -1,6 +1,13 @@
+import TemplateExpression from "./TemplateExpression";
+
 const FirstComponents = () => {
     return (
-        <h1>Texto adicionado nos componentes para utilização no App.js</h1>
+        <div>
+            <h1>Texto adicionado nos componentes para utilização no App.js</h1>
+            <TemplateExpression />
+            <h2>Para mais informações click abaixo</h2>
+        </div>
+
     );
 };
 
