@@ -5,6 +5,7 @@ import Challenge from './componentes/Challenge';
 
 //Style
 import './App.css';
+import RenderSomething from './componentes/RenderSomething';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <FirstComponents/>
       <Events/>
       <Challenge/>
+      <RenderSomething/>
     </div>
   );
 }
