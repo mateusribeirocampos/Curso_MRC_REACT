@@ -1,9 +1,11 @@
 import FirstComponents from './componentes/FirstComponents';
 import TemplateExpression from './componentes/TemplateExpression';
 import Events from './componentes/Events';
+import Challenge from './componentes/Challenge';
 
 //Style
 import './App.css';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <p>Quais são as funções utilizadas para adicionar componentes</p>
       <FirstComponents/>
       <Events/>
+      <Challenge/>
     </div>
   );
 }
