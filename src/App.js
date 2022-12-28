@@ -6,6 +6,7 @@ import Challenge from './componentes/Challenge';
 //Style
 import './App.css';
 import RenderSomething from './componentes/RenderSomething';
+import ManageData from './componentes/ManageData';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Events/>
       <Challenge/>
       <RenderSomething/>
+      <ManageData/>
     </div>
   );
 }
