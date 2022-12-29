@@ -34,5 +34,9 @@ button {
   display: inline-block;
   font-size: 16px;
   border-radius: 30px;
-  box-shadow: 0 8px 16px 0 rgba(172, 50, 50, 0.2), 0 6px 20px 0 rgba(194, 36, 36, 0.733);
+  box-shadow: 0 8px 16px 0 rgba(19, 18, 18, 0.2), 0 6px 20px 0 rgba(194, 36, 36, 0.733);
+}
+
+img {
+  size: 20px;
 }
