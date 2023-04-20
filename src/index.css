@@ -15,12 +15,11 @@ code {
 h1 {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: aquamarine;
 }
 
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: blanchedalmond;
+  color: rgb(5, 5, 5);
   font-weight: 100;
 }
 

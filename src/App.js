@@ -9,9 +9,16 @@ import './App.css';
 import RenderSomething from './componentes/RenderSomething';
 import ManageData from './componentes/ManageData';
 import ListRender from './componentes/ListRender';
+import ConditionalRender from './componentes/ConditionalRender';
+import ShowUserName from './componentes/ShowUserName';
+import CarDetails from './componentes/CarDetails';
+/*import { useState } from 'react';*/
 
 
 function App() {
+  const name = "Roberto"
+  /*const [userName] = useState("Maria");*/
+
   return (
     <div className="App">
       <h1>Fundamentos para aplicação de componentes no React</h1>
@@ -32,6 +39,11 @@ function App() {
       </div>
       <div>
         <ListRender/>
+        <ConditionalRender/>
+        {/*uso de propos*/}
+        <ShowUserName name={name}/>
+        {/*destructuring props*/}
+        <CarDetails brands = "VW" Km = {10000} color="Azul"/>
       </div>
     </div>
   );
