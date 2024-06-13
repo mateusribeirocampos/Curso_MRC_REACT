@@ -12,6 +12,8 @@ const Events = () => {
             return 'blue';
         } else if (currentColor === 'blue') {
             return 'yellow';
+        } else if(currentColor === 'yellow') {
+            return 'green';
         } else {
             return 'red';
         }
