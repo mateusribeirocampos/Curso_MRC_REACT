@@ -21,7 +21,7 @@ const Events = () => {
 
     return (
         <div>
-            <h2>Para verificar a mudança clique no botão abaixo</h2>
+            <h2>Para verificar a mudança de cores clique no botão abaixo</h2>
             <button onClick={handleClick} style={{ color }}>
                 Click here!
             </button>
