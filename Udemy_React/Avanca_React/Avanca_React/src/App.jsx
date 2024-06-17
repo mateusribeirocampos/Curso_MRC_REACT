@@ -26,6 +26,7 @@ function App() {
           <legend>The red sunset.</legend>
         </div>
       </div>
+      </>
   );
 }
 export default App;
