@@ -1,4 +1,5 @@
 import './App.css'
+import FirtComponents from './components/FirtComponents'
 
 function App() {
   return (
@@ -6,7 +7,8 @@ function App() {
       <div>
        <h1>Vamos Avançar no REACT</h1>
        <p>Iniciar seção 3 </p>
-      </div>
+        <FirtComponents/>
+      </div> 
     </>
   )
 }
