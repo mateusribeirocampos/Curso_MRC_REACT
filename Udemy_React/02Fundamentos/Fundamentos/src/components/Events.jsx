@@ -1,5 +1,4 @@
 const Events = () => {
-
     const handleMyEvent = () => {
         console.log("Ativou o evento!");
     };
