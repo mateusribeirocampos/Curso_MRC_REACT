@@ -1,6 +1,9 @@
 import "./App.css";
 import FirstComponents from "./components/FirstComponents";
 import Sunset from "./assets/sunset.jpg";
+import UseHooks from "./components/UseHooks";
+import ManageData from "./components/ManageData";
+import ManageString from "./components/ManageString";
 
 function App() {
   return (
@@ -24,6 +27,19 @@ function App() {
         <div>
           <img src={Sunset} alt="sunset" />
           <legend>The red sunset.</legend>
+        </div>
+      </div>
+      <div>
+        <div>
+          {/* Uso de hooks*/}
+          <UseHooks/>
+          <ManageData/>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h2>Agora o uso de useState para string</h2>
+          <ManageString/>
         </div>
       </div>
       </>

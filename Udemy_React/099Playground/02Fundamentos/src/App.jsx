@@ -3,6 +3,7 @@ import FirstComponents from "./components/FirstComponents";
 import Events from "./components/Events";
 import Events1 from "./components/Events1";
 import sunSetField from "./assets/sunSetField.jpg";
+import UseHooks from "./components/UseHooks";
 
 function App() {
   return (
@@ -26,6 +27,11 @@ function App() {
       <div>
         <h1>Evento para mudar o background</h1>
         <Events1 />
+      </div>
+      <div>
+        <div>
+          <UseHooks/>
+        </div>
       </div>
     </>
   );
