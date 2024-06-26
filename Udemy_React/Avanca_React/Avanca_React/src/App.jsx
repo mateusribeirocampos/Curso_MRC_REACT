@@ -27,7 +27,7 @@ function App() {
         <div>
           <img src={Sunset} alt="sunset" />
           <legend>The red sunset.</legend>
-        </div>
+    git     </div>
       </div>
       <div>
         <div>
